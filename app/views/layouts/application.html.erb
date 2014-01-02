@@ -8,13 +8,10 @@
 </head>
 <body>
 
-<body>
-<%= link_to "home", root_path %>
-<%= link_to "about", about_path %>
-</body>
-
-
-<%= yield %>
+<%= render 'layouts/header' %>
+	<div class="container">
+		<%= yield %>
+	</div>	
 
 </body>
 </html>
