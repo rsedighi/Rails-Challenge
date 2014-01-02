@@ -1,28 +1,5 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Generate a Rails app that allows a user to create, edit, update, and destroy (delete) users. * 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Users should have first name, last name, and email address fields. First name is required. Email should be a valid email. Deploy this app to Heroku (a free *.herokuapp.com URL) so we can test it out live. If you breezed through this challenge, add extra features to this app (be creative). Be sure to paste the URL to your deployed app here.
