@@ -1,14 +1,18 @@
 <div class="jumbotron center">
 <h1>Welcome to my app!</h1>
 
-<% if user_signed_in? %>
-	For my other projects please follow the link below:
+For my other projects please follow the link below:
 
-	<br>1) Replicating a public library in Rails.</br>
+	<br>
+	1) Replicating a public library in Rails.
+		<a href="http://rubyfiddle.com/riddles/b832f"> Rubyfiddle.</a></br>
 	2) Creating a basic HTML to-do list. 
+		<a href="http://jsfiddle.net/TJen7/"> Jsfiddle.</a><br>
+
+<% if user_signed_in? %>
 	<% else %>
 <p>
-	<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+	<br><%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
 	<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
 	
 </p>
